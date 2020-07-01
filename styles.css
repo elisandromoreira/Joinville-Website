@@ -153,9 +153,9 @@ body {
 }
 
 .cursor {
-  width: 3rem;
-  height: 3rem;
-  border: 2px solid white;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid white;
   border-radius: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -163,6 +163,48 @@ body {
   transition: all 0.5s ease-in-out;
   transition-property: background, transform;
   transform-origin: 75% 75%;
+}
+
+.cursor.nav-active {
+  background: rgb(86, 124, 228);
+  transform: scale(3);
+}
+
+.cursor.explore-active {
+  background: white;
+  transform: scale(3);
+}
+
+.cursor-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 0.2rem;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  position: relative;
+  overflow: hidden;
+}
+.title-swipe {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  mix-blend-mode: darken;
+  transform: translateY(100%);
+}
+.t-swipe1 {
+  background: rgb(86, 124, 228);
+}
+
+.t-swipe2 {
+  background: rgb(167, 110, 231);
+}
+.t-swipe3 {
+  background: rgb(255, 139, 93);
 }
 
 .scrollmagic-pin-spacer {
