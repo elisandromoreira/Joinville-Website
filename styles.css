@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #17181a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#logo {
+  color: white;
+  font-family: 'Abril Fatface';
+}
+.nav-header {
+  min-height: 10vh;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0rem;
+  z-index: 2;
+  position: relative;
+}
+
+.line1,
+.line2,
+.line3 {
+  width: 2rem;
+  height: 0.1rem;
+  margin: 0.4rem;
+  background: white;
+  pointer-events: none;
+}
+
+.slide {
+  min-height: 90vh;
+  margin: 0 auto 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background: #17181a;
+}
+
+.hero-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-basis: 25rem;
+  padding-left: 5rem;
+  position: relative;
+}
+
+.hero-img {
+  position: relative;
+  flex: 1;
+  flex-basis: 25rem;
+  overflow: hidden;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flower-span {
+  color: rgb(255, 139, 93);
+}
+.joinville-span {
+  color: rgb(86, 124, 228);
+}
+
+.dance-span {
+  color: rgb(167, 110, 231);
+}
+.hero-desc h2 {
+  font-family: 'Abril Fatface';
+  font-size: 2.5rem;
+}
+.hero-desc p {
+  padding: 2rem 0rem;
+  font-size: 1.2rem;
+  color: rgb(223, 223, 223);
+}
+.explore {
+  padding: 1rem 2rem;
+  background: none;
+  border: none;
+  color: white;
+  border: 1px solid white;
+  font-size: 1rem;
+  text-decoration: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  opacity: 1;
+  clip-path: circle(50px at 100% -10%);
+  -webkit-clip-path: circle(50px at 100% -10%);
+}
+
+.burger {
+  cursor: pointer;
+}
+.nav-links {
+  font-size: 2.5rem;
+  flex-basis: 30rem;
+}
+.nav-links h3 {
+  padding: 2rem 0rem;
+}
+.contact {
+  flex-basis: 30rem;
+}
+.contact h2 {
+  font-size: 2rem;
+  padding: 2rem 0rem;
+}
+.contact p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
