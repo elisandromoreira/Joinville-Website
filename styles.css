@@ -130,6 +130,10 @@ body {
 .nav-links h3 {
   padding: 2rem 0rem;
 }
+
+.nav-links a {
+  color: blueviolet;
+}
 .contact {
   flex-basis: 30rem;
 }
@@ -140,6 +144,7 @@ body {
 .contact p {
   font-size: 1.2rem;
   line-height: 2rem;
+  margin: 1rem 0;
 }
 
 .reveal-img,

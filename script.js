@@ -89,7 +89,7 @@ function navToggle(e) {
     e.target.classList.add('active');
     gsap.to('.line1', 0.5, { rotate: '45', y: 4, background: 'black' });
     gsap.to('.line2', 0.5, { rotate: '-45', y: -4, background: 'black' });
-    gsap.to('#logo', 1, { color: 'rgb(86, 124, 228)' });
+    gsap.to('#logo', 1, { color: '#17181a' });
     gsap.to('.nav-bar', 1, { clipPath: 'circle(2500px at 100% -10%)' });
     document.body.classList.add('hide');
   } else {
